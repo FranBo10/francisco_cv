@@ -42,7 +42,7 @@ body {
 }
 
 .photo {
-    background-image: url(/img/perfilcv.png);
+    background-image: url(../img/perfilcv.png);
     max-width: 90%;
     margin: 0px auto;
     background-color: teal;
@@ -50,7 +50,8 @@ body {
     background-position-y: -58px;
     background-position-x: -17px;
     color: #fff;
-    text-align: center;       
+    text-align: center; 
+    z-index: 200;      
 }
 
 .profile .photo {
