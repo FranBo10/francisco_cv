@@ -43,14 +43,16 @@ body {
 
 .photo {
     background-image: url(/img/perfilcv.png);
-    max-width: 90%;
+    max-width: 70%;
     margin: 0px auto;
     background-color: teal;
     background-size: cover;
     background-position-y: -58px;
     background-position-x: -17px;
+    margin-top: 10px;
     color: #fff;
-    text-align: center;       
+    text-align: center;     
+    z-index: 200;       
 }
 
 .profile .photo {
@@ -173,7 +175,7 @@ body {
 }
 
 .title2 {
-    color: red;
+    color: #2a7da2;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -190,13 +192,14 @@ p {
 }
 
 .about .title2 {
+    margin-bottom: 5px;
     color: #2a7da2;
 }
 
 .about .box {
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 5px 0;
 }
 
 .about .box li {
@@ -248,3 +251,12 @@ p {
     height: 100%;
     background: #2a7da2;
 }
+
+.competence-container>ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 16px;
+  }
